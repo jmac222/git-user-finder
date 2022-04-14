@@ -1,3 +1,70 @@
 html, body{
-    background-color: beige
+    background-color: #212121
 }
+h1{
+    color: #212121;
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+}
+
+.git{
+    background-color: whitesmoke;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+    /* margin-top: 30px; */
+    border-radius: 10px;
+    align-items: center;
+}
+
+input{
+    height: 3vh;
+    font-size: 16px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 45vw;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+}
+.account{
+    background-color: #212121;
+    width: 40vw;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 3px;
+}
+.account:hover{
+    cursor: pointer;
+}
+
+.account h1, h2, h3, p{
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 600px) {
+    .git{
+        width: 95vw;
+    }
+    .account{
+        width: 93vw;
+        margin: 1px;
+        margin-top: 10px;
+    }
+  }
